@@ -11,7 +11,7 @@ sudo docker run -d -p 27017:27017 --volumes-from fcc_comments_data \
 
 Run app with linked database
 ```bash
-sudo docker run -p 80:8080 -t -i \
+sudo docker run -p 127.0.0.1:8080:8000 -t -i \
 -e DB_NAME='fcc_comments' \
 -e DB_COLLECTIONS='comments' \
 --link fcc_comments_db:db \

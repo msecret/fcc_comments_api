@@ -1,0 +1,3 @@
+[submodule "data_databasizer"]
+	path = data_databasizer
+	url = git@github.com:msecret/data_databasizer.git

@@ -1,0 +1,11 @@
+{
+  "name": "fcc_comments_api",
+  "version": "0.0.1",
+  "description": "An API for the fcc_comments database",
+  "main": "index.js",
+  "author": "msegreto@miceover.com",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb-rest": "^0.10.7"
+  }
+}
